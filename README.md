@@ -21,7 +21,7 @@ Notre API prend en charge plusieurs langues pour afficher les données météoro
 #### Installation
 Pour faire fonctionner le projet, il est nécessaire d’avoir sur votre machine le visual studio code installé.
 
-Téléchargez et ouvrez le fichier dans visual studio code terminal, tapez le commande suivante:
+Téléchargez et ouvrez le fichier dans visual studio code.Dans le terminal VS, tapez le commande suivante:
 
 ```html
 npm install
