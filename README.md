@@ -31,6 +31,11 @@ Prochaine etape apres l'installation, dans le terminal VS, tapez la commande sui
 ```html
 npm start
 ```
+Si la quantite des vulnerabilites est superieur a 30, tapez la commande suivante:
+
+```html
+npm audit fix
+```
 Un nouvel écran s’ouvrira dans votre navigateur.
 Après cela, il suffit de taper le nom d’une ville dans la saisie et ainsi obtenir les résultats du programme.
 
