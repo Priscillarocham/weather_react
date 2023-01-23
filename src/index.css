@@ -1,0 +1,95 @@
+/*API utilisée pour la font */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+/*code css pour les differentes parties de  notre interface graphique*/
+body {
+  margin: 0;
+  font-family: 'Rowdies', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+  font-size: 1.5rem;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2{
+  margin-top: 2.5rem;
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 5rem;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 2rem;
+}
+
+.App{
+  content: '';
+  background: url('./sunset.jpg') no-repeat center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  text-align: center;
+}
+
+input{
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  background: rgba(250,250,250, 0.5);
+}
+
+button{
+  border-radius: 25px;
+  background: rgba(250,250,250, 0.1);
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.container{
+  position: relative;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.right .humidity {
+  float: left;
+  width: 50%;
+  margin-top: 3.5rem;
+}
+
+.right .wind {
+  float: right;
+  width: 50%;
+  margin-top: 3.5rem;
+}
