@@ -39,3 +39,7 @@ Après cela, il suffit de taper le nom d’une ville dans la saisie et ainsi obt
 https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 ---
+
+## Autor Info
+<a href="mailto:Braham_asma@yahoo.fr">Asma Braham</a> <br>
+<a href="mailto:pri.rm2310@gmail.com">Priscilla Rocha</a>
