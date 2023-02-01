@@ -12,8 +12,9 @@ Dans notre travail on a choisi de travailler avec l’appel d’API par nom de v
 
 Il est possible de recevoir un quartier central de la ville/village avec ses propres paramètres (coordonnées géographiques/id/nom) dans la réponse API. 
 
-Notre API prend en charge plusieurs langues pour afficher les données météorologiques
+La API prend en charge plusieurs langues pour afficher les données météorologiques
 
+https://openweathermap.org/api/one-call-3
 ---
 
 ## How to use
